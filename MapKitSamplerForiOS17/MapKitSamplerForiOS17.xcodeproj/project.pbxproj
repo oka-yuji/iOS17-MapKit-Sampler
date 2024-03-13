@@ -15,6 +15,7 @@
 		286FC9502BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */; };
 		286FC9522BA18B830076E4C9 /* AnnotationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9512BA18B830076E4C9 /* AnnotationSample.swift */; };
 		286FC9542BA1D53A0076E4C9 /* MapCircleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9532BA1D53A0076E4C9 /* MapCircleSample.swift */; };
+		286FC9562BA1DE0D0076E4C9 /* MapPolygonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9552BA1DE0D0076E4C9 /* MapPolygonSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extensions.swift"; sourceTree = "<group>"; };
 		286FC9512BA18B830076E4C9 /* AnnotationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationSample.swift; sourceTree = "<group>"; };
 		286FC9532BA1D53A0076E4C9 /* MapCircleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCircleSample.swift; sourceTree = "<group>"; };
+		286FC9552BA1DE0D0076E4C9 /* MapPolygonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPolygonSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				286FC94D2B9F457E0076E4C9 /* MapStyleSample.swift */,
 				286FC9512BA18B830076E4C9 /* AnnotationSample.swift */,
 				286FC9532BA1D53A0076E4C9 /* MapCircleSample.swift */,
+				286FC9552BA1DE0D0076E4C9 /* MapPolygonSample.swift */,
 				286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */,
 				286FC9432B9F41750076E4C9 /* Assets.xcassets */,
 				286FC9452B9F41750076E4C9 /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286FC9542BA1D53A0076E4C9 /* MapCircleSample.swift in Sources */,
+				286FC9562BA1DE0D0076E4C9 /* MapPolygonSample.swift in Sources */,
 				286FC94E2B9F457E0076E4C9 /* MapStyleSample.swift in Sources */,
 				286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */,
 				286FC9402B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift in Sources */,
