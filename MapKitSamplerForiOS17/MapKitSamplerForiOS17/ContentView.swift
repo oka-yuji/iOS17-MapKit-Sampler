@@ -16,7 +16,7 @@ struct ContentView: View {
                         .navigationBarTitleDisplayMode(.inline)
                 }
                 NavigationLink("Annotation Sample") {
-                    MapStyleSample()
+                    AnnotationSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
             }
