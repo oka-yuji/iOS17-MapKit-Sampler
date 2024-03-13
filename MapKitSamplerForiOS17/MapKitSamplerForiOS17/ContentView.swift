@@ -12,11 +12,11 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink("MapStyle Sample") {
-                    MapStyle()
+                    MapStyleSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
                 NavigationLink("Annotation Sample") {
-                    MapStyle()
+                    MapStyleSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
             }
