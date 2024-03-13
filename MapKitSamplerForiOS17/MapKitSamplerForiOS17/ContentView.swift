@@ -19,6 +19,10 @@ struct ContentView: View {
                     AnnotationSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("MapCircle Sample") {
+                    MapCircleSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
