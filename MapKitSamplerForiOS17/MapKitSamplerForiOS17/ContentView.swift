@@ -31,6 +31,10 @@ struct ContentView: View {
                     MapPolylineSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("Marker Sample") {
+                    MarkerSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
