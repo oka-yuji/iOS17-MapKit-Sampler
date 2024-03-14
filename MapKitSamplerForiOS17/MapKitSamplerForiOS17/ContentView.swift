@@ -9,13 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                NavigationLink("MapStyle Sample") {
+                    MapStyleSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("Annotation Sample") {
+                    AnnotationSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("MapCircle Sample") {
+                    MapCircleSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("MapPolygon Sample") {
+                    MapPolygonSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("MapPolyline Sample") {
+                    MapPolylineSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("Marker Sample") {
+                    MarkerSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+            }
+            .navigationTitle("MapKitSampler")
         }
-        .padding()
     }
 }
 
