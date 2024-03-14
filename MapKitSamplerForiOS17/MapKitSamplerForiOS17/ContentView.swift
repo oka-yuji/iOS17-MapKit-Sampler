@@ -23,6 +23,14 @@ struct ContentView: View {
                     MapCircleSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("MapPolygon Sample") {
+                    MapPolygonSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
+                NavigationLink("MapPolyline Sample") {
+                    MapPolylineSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
