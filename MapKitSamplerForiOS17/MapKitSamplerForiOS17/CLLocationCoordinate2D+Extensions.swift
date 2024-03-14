@@ -17,4 +17,10 @@ extension CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: 35.680667, longitude: 139.76587695236373),
         CLLocationCoordinate2D(latitude: 35.680037, longitude: 139.76785865385352)
     ]
+
+    static let tokyoStationTonihonbashiStation = [
+        CLLocationCoordinate2D(latitude: 35.680360872435834, longitude: 139.76895627465805),
+        CLLocationCoordinate2D(latitude: 35.68356491886786, longitude: 139.77095859539386),
+        CLLocationCoordinate2D(latitude: 35.68204152197238, longitude: 139.77490316724334)
+    ]
 }
