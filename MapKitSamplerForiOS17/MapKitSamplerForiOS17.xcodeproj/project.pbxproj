@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284FF9242BA3340400E21469 /* UserAnnotationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9232BA3340400E21469 /* UserAnnotationSample.swift */; };
+		284FF9262BA6EDE300E21469 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9252BA6EDE300E21469 /* LocationManager.swift */; };
 		286B74FC2BA3293F00E20694 /* MarkerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B74FB2BA3293F00E20694 /* MarkerSample.swift */; };
 		286FC9402B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */; };
 		286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9412B9F41740076E4C9 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284FF9232BA3340400E21469 /* UserAnnotationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotationSample.swift; sourceTree = "<group>"; };
+		284FF9252BA6EDE300E21469 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		286B74FB2BA3293F00E20694 /* MarkerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerSample.swift; sourceTree = "<group>"; };
 		286FC93C2B9F41740076E4C9 /* MapKitSamplerForiOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSamplerForiOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSamplerForiOS17App.swift; sourceTree = "<group>"; };
@@ -67,12 +71,14 @@
 			children = (
 				286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */,
 				286FC9412B9F41740076E4C9 /* ContentView.swift */,
+				284FF9232BA3340400E21469 /* UserAnnotationSample.swift */,
 				286FC94D2B9F457E0076E4C9 /* MapStyleSample.swift */,
 				286FC9512BA18B830076E4C9 /* AnnotationSample.swift */,
 				286FC9532BA1D53A0076E4C9 /* MapCircleSample.swift */,
 				286FC9552BA1DE0D0076E4C9 /* MapPolygonSample.swift */,
 				286FC9572BA3207B0076E4C9 /* MapPolylineSample.swift */,
 				286B74FB2BA3293F00E20694 /* MarkerSample.swift */,
+				284FF9252BA6EDE300E21469 /* LocationManager.swift */,
 				286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */,
 				286FC9432B9F41750076E4C9 /* Assets.xcassets */,
 				286FC9452B9F41750076E4C9 /* Preview Content */,
@@ -159,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				286FC9542BA1D53A0076E4C9 /* MapCircleSample.swift in Sources */,
+				284FF9242BA3340400E21469 /* UserAnnotationSample.swift in Sources */,
 				286FC9562BA1DE0D0076E4C9 /* MapPolygonSample.swift in Sources */,
+				284FF9262BA6EDE300E21469 /* LocationManager.swift in Sources */,
 				286B74FC2BA3293F00E20694 /* MarkerSample.swift in Sources */,
 				286FC94E2B9F457E0076E4C9 /* MapStyleSample.swift in Sources */,
 				286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */,
@@ -303,6 +311,7 @@
 				DEVELOPMENT_TEAM = NKLMM8NS64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在位置を表示するために位置情報を使用してもいいですか？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +341,7 @@
 				DEVELOPMENT_TEAM = NKLMM8NS64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "現在位置を表示するために位置情報を使用してもいいですか？";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
