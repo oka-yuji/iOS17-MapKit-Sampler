@@ -10,7 +10,7 @@ import MapKit
 
 struct UserAnnotationSample: View {
     let locationManager = LocationManager()
-    
+
     var body: some View {
         Map(interactionModes: .all) {
             UserAnnotation(anchor: .center) { userLocation in
@@ -28,7 +28,6 @@ struct UserAnnotationSample: View {
                     Text("me")
                 }
             }
-            .mapOverlayLevel(level: MKOverlayLevel(rawValue: 1)!)
         }
         .mapControls {
             MapUserLocationButton()
