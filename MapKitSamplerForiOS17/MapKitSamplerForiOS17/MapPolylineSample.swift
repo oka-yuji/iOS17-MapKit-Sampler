@@ -11,7 +11,7 @@ import MapKit
 struct MapPolylineSample: View {
     var body: some View {
         Map() {
-            MapPolyline(coordinates: CLLocationCoordinate2D.tokyoStationTonihonbashiStation,
+            MapPolyline(coordinates: CLLocationCoordinate2D.tokyoStationToNihonbashiStation,
                         contourStyle: .straight)
             .stroke(.blue, lineWidth: 8)
         }
