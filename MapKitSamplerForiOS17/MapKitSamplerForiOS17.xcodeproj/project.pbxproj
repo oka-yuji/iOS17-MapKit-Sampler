@@ -10,6 +10,9 @@
 		284FF9242BA3340400E21469 /* UserAnnotationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9232BA3340400E21469 /* UserAnnotationSample.swift */; };
 		284FF9262BA6EDE300E21469 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9252BA6EDE300E21469 /* LocationManager.swift */; };
 		284FF9282BA72BD700E21469 /* MapControlsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9272BA72BD700E21469 /* MapControlsSample.swift */; };
+		284FF92A2BA731D700E21469 /* LookAroundPreviewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9292BA731D700E21469 /* LookAroundPreviewSample.swift */; };
+		284FF92E2BB1B17D00E21469 /* LocationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF92D2BB1B17D00E21469 /* LocationPreview.swift */; };
+		284FF9302BB1B21F00E21469 /* StationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF92F2BB1B21F00E21469 /* StationPoint.swift */; };
 		286B74FC2BA3293F00E20694 /* MarkerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B74FB2BA3293F00E20694 /* MarkerSample.swift */; };
 		286FC9402B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */; };
 		286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9412B9F41740076E4C9 /* ContentView.swift */; };
@@ -27,6 +30,9 @@
 		284FF9232BA3340400E21469 /* UserAnnotationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotationSample.swift; sourceTree = "<group>"; };
 		284FF9252BA6EDE300E21469 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		284FF9272BA72BD700E21469 /* MapControlsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapControlsSample.swift; sourceTree = "<group>"; };
+		284FF9292BA731D700E21469 /* LookAroundPreviewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundPreviewSample.swift; sourceTree = "<group>"; };
+		284FF92D2BB1B17D00E21469 /* LocationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreview.swift; sourceTree = "<group>"; };
+		284FF92F2BB1B21F00E21469 /* StationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPoint.swift; sourceTree = "<group>"; };
 		286B74FB2BA3293F00E20694 /* MarkerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerSample.swift; sourceTree = "<group>"; };
 		286FC93C2B9F41740076E4C9 /* MapKitSamplerForiOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSamplerForiOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSamplerForiOS17App.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				286FC9572BA3207B0076E4C9 /* MapPolylineSample.swift */,
 				286B74FB2BA3293F00E20694 /* MarkerSample.swift */,
 				284FF9252BA6EDE300E21469 /* LocationManager.swift */,
+				284FF9292BA731D700E21469 /* LookAroundPreviewSample.swift */,
+				284FF92F2BB1B21F00E21469 /* StationPoint.swift */,
+				284FF92D2BB1B17D00E21469 /* LocationPreview.swift */,
 				286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */,
 				286FC9432B9F41750076E4C9 /* Assets.xcassets */,
 				286FC9452B9F41750076E4C9 /* Preview Content */,
@@ -170,14 +179,17 @@
 				286FC9542BA1D53A0076E4C9 /* MapCircleSample.swift in Sources */,
 				284FF9242BA3340400E21469 /* UserAnnotationSample.swift in Sources */,
 				286FC9562BA1DE0D0076E4C9 /* MapPolygonSample.swift in Sources */,
+				284FF92A2BA731D700E21469 /* LookAroundPreviewSample.swift in Sources */,
 				284FF9262BA6EDE300E21469 /* LocationManager.swift in Sources */,
 				286B74FC2BA3293F00E20694 /* MarkerSample.swift in Sources */,
 				286FC94E2B9F457E0076E4C9 /* MapStyleSample.swift in Sources */,
 				286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */,
 				286FC9402B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift in Sources */,
+				284FF92E2BB1B17D00E21469 /* LocationPreview.swift in Sources */,
 				286FC9502BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
 				286FC9582BA3207B0076E4C9 /* MapPolylineSample.swift in Sources */,
 				286FC9522BA18B830076E4C9 /* AnnotationSample.swift in Sources */,
+				284FF9302BB1B21F00E21469 /* StationPoint.swift in Sources */,
 				284FF9282BA72BD700E21469 /* MapControlsSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
