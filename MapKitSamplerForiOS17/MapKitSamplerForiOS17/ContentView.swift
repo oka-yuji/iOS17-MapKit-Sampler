@@ -47,6 +47,10 @@ struct ContentView: View {
                     LookAroundPreviewSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("MapFeature Sample") {
+                    MapFeatureSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
