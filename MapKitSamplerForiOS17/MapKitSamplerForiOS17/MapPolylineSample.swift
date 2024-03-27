@@ -115,9 +115,9 @@ struct MapPolylineSample: View {
                 let etaResponse = try await directions.calculateETA()
                 let etaSeconds = etaResponse.expectedTravelTime
                 let etaMinutes = Int(etaSeconds / 60)
-                print("公共交通機関を利用した場合の推定到着時間: \(etaMinutes) 分")
+                print("ETA: \(etaMinutes)")
             } catch {
-                print("ETA計算エラー: \(error.localizedDescription)")
+                print("ETA Error: \(error.localizedDescription)")
             }
         } else {
             do {
@@ -127,7 +127,7 @@ struct MapPolylineSample: View {
                 route = routes.first
                 print(routes)
             } catch {
-                print("経路計算エラー: \(error.localizedDescription)")
+                print(error.localizedDescription)
             }
         }
     }
