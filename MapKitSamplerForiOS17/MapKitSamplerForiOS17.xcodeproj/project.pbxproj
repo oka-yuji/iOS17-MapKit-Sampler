@@ -14,6 +14,7 @@
 		284FF92E2BB1B17D00E21469 /* LocationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF92D2BB1B17D00E21469 /* LocationPreview.swift */; };
 		284FF9302BB1B21F00E21469 /* StationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF92F2BB1B21F00E21469 /* StationPoint.swift */; };
 		284FF9322BB1BBA400E21469 /* MapFeatureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9312BB1BBA400E21469 /* MapFeatureSample.swift */; };
+		284FF9342BB4809800E21469 /* MapCameraSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FF9332BB4809800E21469 /* MapCameraSample.swift */; };
 		286B74FC2BA3293F00E20694 /* MarkerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B74FB2BA3293F00E20694 /* MarkerSample.swift */; };
 		286FC9402B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */; };
 		286FC9422B9F41740076E4C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9412B9F41740076E4C9 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 		284FF92D2BB1B17D00E21469 /* LocationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreview.swift; sourceTree = "<group>"; };
 		284FF92F2BB1B21F00E21469 /* StationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPoint.swift; sourceTree = "<group>"; };
 		284FF9312BB1BBA400E21469 /* MapFeatureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFeatureSample.swift; sourceTree = "<group>"; };
+		284FF9332BB4809800E21469 /* MapCameraSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCameraSample.swift; sourceTree = "<group>"; };
 		286B74FB2BA3293F00E20694 /* MarkerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerSample.swift; sourceTree = "<group>"; };
 		286FC93C2B9F41740076E4C9 /* MapKitSamplerForiOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSamplerForiOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286FC93F2B9F41740076E4C9 /* MapKitSamplerForiOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSamplerForiOS17App.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				284FF9292BA731D700E21469 /* LookAroundPreviewSample.swift */,
 				284FF92F2BB1B21F00E21469 /* StationPoint.swift */,
 				284FF92D2BB1B17D00E21469 /* LocationPreview.swift */,
+				284FF9332BB4809800E21469 /* MapCameraSample.swift */,
 				284FF9312BB1BBA400E21469 /* MapFeatureSample.swift */,
 				286FC94F2BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift */,
 				286FC9432B9F41750076E4C9 /* Assets.xcassets */,
@@ -191,6 +194,7 @@
 				284FF92E2BB1B17D00E21469 /* LocationPreview.swift in Sources */,
 				286FC9502BA0A98A0076E4C9 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
 				286FC9582BA3207B0076E4C9 /* MapPolylineSample.swift in Sources */,
+				284FF9342BB4809800E21469 /* MapCameraSample.swift in Sources */,
 				286FC9522BA18B830076E4C9 /* AnnotationSample.swift in Sources */,
 				284FF9322BB1BBA400E21469 /* MapFeatureSample.swift in Sources */,
 				284FF9302BB1B21F00E21469 /* StationPoint.swift in Sources */,
