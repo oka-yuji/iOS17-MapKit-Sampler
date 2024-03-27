@@ -8,7 +8,9 @@
 import MapKit
 
 extension CLLocationCoordinate2D {
-    static let tokyoStation = CLLocationCoordinate2D(latitude: 35.68134946439918, longitude: 139.7670818826609)
+    static let tokyoStation = CLLocationCoordinate2D(latitude: 35.6812405, longitude: 139.7645499)
+
+    static let shinagawaStation = CLLocationCoordinate2D(latitude: 35.6284756, longitude: 139.7361848)
 
     static let tokyoStationStreet = CLLocationCoordinate2D(latitude: 35.679981237178694, longitude: 139.76897015768628)
 
