@@ -17,7 +17,7 @@ struct AnnotationSample: View {
                     .padding(8)
                     .background(
                         RoundedRectangle(cornerRadius: 8)
-                            .foregroundColor(.blue))
+                            .fill(.blue))
             } label: {
                 VStack {
                     // title

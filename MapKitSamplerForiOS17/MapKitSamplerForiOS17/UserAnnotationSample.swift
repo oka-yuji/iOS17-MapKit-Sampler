@@ -23,7 +23,7 @@ struct UserAnnotationSample: View {
                         .padding(2)
                         .background(
                             Circle()
-                                .foregroundStyle(.white)
+                                .fill(.white)
                         )
                     Text("me")
                 }
