@@ -9,7 +9,6 @@ import SwiftUI
 import MapKit
 
 struct MapCameraSample: View {
-    @State private var cameraPosition: MapCameraPosition = .camera(MapCamera(centerCoordinate: .tokyoStation, distance: 100000000))
     @State private var userCameraPosition: MapCameraPosition = .userLocation(followsHeading: true,
                                                                              fallback: .camera(MapCamera(centerCoordinate: .tokyoStation,
                                                                                                          distance: 5000,
