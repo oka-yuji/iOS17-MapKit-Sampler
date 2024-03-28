@@ -55,6 +55,10 @@ struct ContentView: View {
                     MapCameraSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("MapReader Sample") {
+                    MapReaderSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
