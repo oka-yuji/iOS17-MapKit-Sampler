@@ -10,7 +10,7 @@ import MapKit
 
 struct MapPolylineSample: View {
     @State private var route: MKRoute?
-    @State private var isShowingRoutes = true
+    @State private var isShowingRoutes = false
     var body: some View {
         VStack {
             Toggle("View with routes", isOn: $isShowingRoutes)
