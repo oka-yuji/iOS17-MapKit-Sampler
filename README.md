@@ -92,3 +92,9 @@ Sample of tapping on the map to get the longitude and latitude of the tap
 
 ![Simulator Screen Recording - iPhone 15 Pro - 2024-04-01 at 21 54 44](https://github.com/oka-yuji/iOS17-MapKit-Sampler/assets/56917591/228249ec-d740-47c6-ae41-226b9dcb1821)
 
+13. LocalSearch Sample
+
+In this sample, enter the characters you want to search in the TextField and tap the "magnifyingglass" to display the search result marker on the map.
+Tap the marker to display detailed information in the safe area (bottom).
+
+![Simulator Screen Recording - iPhone 15 Pro - 2024-04-04 at 07 58 20](https://github.com/oka-yuji/iOS17-MapKit-Sampler/assets/56917591/28ba28b8-a409-41a9-9f18-f32800996bce)
