@@ -59,6 +59,10 @@ struct ContentView: View {
                     MapReaderSample()
                         .navigationBarTitleDisplayMode(.inline)
                 }
+                NavigationLink("LocalSearch Sample") {
+                    LocalSearchSample()
+                        .navigationBarTitleDisplayMode(.inline)
+                }
             }
             .navigationTitle("MapKitSampler")
         }
