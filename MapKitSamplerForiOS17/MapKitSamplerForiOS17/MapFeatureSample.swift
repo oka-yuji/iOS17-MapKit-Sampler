@@ -20,7 +20,7 @@ struct MapFeatureSample: View {
                         Text(feature.title ?? "")
                         // feature.image
                     }
-                    onAppear {
+                    .onAppear {
                         print(feature.image)
                         print(feature.title)
                         print(feature.kind)
